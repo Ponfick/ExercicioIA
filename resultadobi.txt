@@ -1,0 +1,64 @@
+Resultados da Busca Bidirecional (Raio: 3.0)
+=============================================
+
+=============================================
+          Cenário 1: New York -> Jacksonville
+=============================================
+
+--- Busca Finalizada ---
+Total de Expansões de Nós: 96
+Expansões (Avanço): 42
+Expansões (Retrocesso): 54
+Tempo de Execução: 0.0090 segundos
+
+Melhor caminho encontrado com encontro no nó: Vineland
+Custo final calculado: 6.90
+Reconstruindo caminho...
+Reconstrução do caminho bem-sucedida.
+
+--- Resultado Final ---
+  Status: Caminho ótimo encontrado
+  Nó Final de Encontro: Vineland
+  Caminho Encontrado (4 cidades):
+    New York -> Vineland -> Hampton -> Jacksonville
+  Distância Total: 6.90
+  Total de Expansões de Nós: 96
+  Tempo de Execução: 0.0090 segundos
+=============================================
+
+=============================================
+          Cenário 2: Los Angeles -> Detroit
+=============================================
+
+--- Busca Finalizada ---
+Total de Expansões de Nós: 419
+Expansões (Avanço): 229
+Expansões (Retrocesso): 190
+Tempo de Execução: 0.0490 segundos
+
+Nenhum caminho encontrado entre Los Angeles e Detroit.
+
+--- Resultado Final ---
+  Status: Nenhum caminho encontrado (Espaço de busca esgotado)
+  Total de Expansões de Nós: 419
+  Tempo de Execução: 0.0490 segundos
+=============================================
+
+=============================================
+          Cenário 3: Miami -> Seattle
+=============================================
+
+--- Busca Finalizada ---
+Total de Expansões de Nós: 64
+Expansões (Avanço): 1
+Expansões (Retrocesso): 63
+Tempo de Execução: 0.0060 segundos
+
+Nenhum caminho encontrado entre Miami e Seattle.
+
+--- Resultado Final ---
+  Status: Nenhum caminho encontrado (Espaço de busca esgotado)
+  Total de Expansões de Nós: 64
+  Tempo de Execução: 0.0060 segundos
+=============================================
+

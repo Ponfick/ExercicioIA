@@ -1,0 +1,54 @@
+Resultados da Busca de Custo Uniforme (UCS) (Raio: 3.5)
+=============================================
+
+=============================================
+          Cenário 1: New York -> Jacksonville (UCS)
+=============================================
+
+--- Busca Finalizada ---
+Total de Expansões de Nós: 135
+Tempo de Execução: 0.0200 segundos
+Custo final calculado: 6.90
+
+--- Resultado Final ---
+  Status: Caminho ótimo encontrado
+  Caminho Encontrado (4 cidades):
+    New York -> Vineland (Dist: 1.60) -> Hampton (Dist: 2.79) -> Jacksonville (Dist: 2.52)
+  Distância Total: 6.90
+  Total de Expansões de Nós: 135
+  Tempo de Execução: 0.0200 segundos
+=============================================
+
+=============================================
+          Cenário 2: Miami -> Seattle (UCS)
+=============================================
+
+--- Busca Finalizada ---
+Total de Expansões de Nós: 675
+Tempo de Execução: 0.0970 segundos
+Custo final calculado: 54.91
+
+--- Resultado Final ---
+  Status: Caminho ótimo encontrado
+  Caminho Encontrado (21 cidades):
+    Miami -> Lakeland (Dist: 2.88) -> Tallahassee (Dist: 3.34) -> Pensacola (Dist: 2.94) -> Gulfport (Dist: 1.88) -> Alexandria (Dist: 3.48) -> Tyler (Dist: 3.04) -> Burleson (Dist: 2.03) -> Abilene (Dist: 2.41) -> Lubbock (Dist: 2.40) -> Clovis (Dist: 1.58) -> Santa Fe (Dist: 3.02) -> Farmington (Dist: 2.51) -> Grand Junction (Dist: 2.36) -> Orem (Dist: 3.38) -> Idaho Falls (Dist: 3.21) -> Bozeman (Dist: 2.40) -> Missoula (Dist: 3.19) -> Spokane Valley (Dist: 3.34) -> Yakima (Dist: 3.44) -> Seattle (Dist: 2.08)
+  Distância Total: 54.91
+  Total de Expansões de Nós: 675
+  Tempo de Execução: 0.0970 segundos
+=============================================
+
+=============================================
+          Cenário 3: Los Angeles -> Detroit (UCS)
+=============================================
+
+--- Busca Finalizada ---
+Total de Expansões de Nós: 229
+Tempo de Execução: 0.0390 segundos
+Nenhum caminho encontrado entre Los Angeles e Detroit.
+
+--- Resultado Final ---
+  Status: Nenhum caminho encontrado (Espaço de busca esgotado)
+  Total de Expansões de Nós: 229
+  Tempo de Execução: 0.0390 segundos
+=============================================
+
